@@ -1,5 +1,8 @@
 package com.lessons.lesson2;
 
+import com.lessons.lesson5.Person;
+import com.lessons.lesson5.ServiceForDelegation;
+
 import java.util.Arrays;
 
 /**
@@ -16,5 +19,8 @@ public class Main {
         System.out.println("Inner Array - " + Arrays.toString(resultArrayForInner));
         int[] resultArrayForOuter = helpersArrays.outerArray(firstArray, secondArray);
         System.out.println("Outer Array - " + Arrays.toString(resultArrayForOuter));
+
+        ServiceForDelegation serviceForDelegation = new ServiceForDelegation(helpersArrays);
+        serviceForDelegation.mergePerson();
     }
 }

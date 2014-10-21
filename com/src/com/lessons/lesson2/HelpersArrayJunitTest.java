@@ -29,4 +29,37 @@ public class HelpersArrayJunitTest {
 //        assert return value
         Assert.assertArrayEquals("Arrays should be equals", expectedValues, returnedValue);
     }
+
+    @Test
+    public void testLeftUnion() {
+        System.out.println("--------------------------------------");
+        System.out.println("Test testLeftUnion");
+//        initialize var inputs
+        int[] firstArray = new int[] {1,4,8,7,9};
+        int[] secondArray = new int[] {11,4,7,10,0};
+        int[] expectedArray = {1,4,8,7,9,4,7};
+
+        HelpersArrays helpersArrays = new HelpersArrays();
+        System.out.println(helpersArrays.getLengthResultArrayForLeft(firstArray, secondArray));
+        int[] returnedValue = helpersArrays.leftArray(firstArray, secondArray);
+        System.out.println("LeftUnion result - " + Arrays.toString(returnedValue));
+
+        Assert.assertArrayEquals("Arrays should be equals", expectedArray, returnedValue);
+    }
+    @Test
+    public void testLeftUnionNullFirstArray() {
+        System.out.println("--------------------------------------");
+        System.out.println("Test testLeftUnion");
+//        initialize var inputs
+        int[] firstArray = null;
+        int[] secondArray = new int[] {11,4,7,10,0};
+        int[] expectedArray = {};
+
+        HelpersArrays helpersArrays = new HelpersArrays();
+        System.out.println(helpersArrays.getLengthResultArrayForLeft(firstArray, secondArray));
+        int[] returnedValue = helpersArrays.leftArray(firstArray, secondArray);
+        System.out.println("LeftUnion result - " + Arrays.toString(returnedValue));
+
+        Assert.assertArrayEquals("Arrays should be equals", expectedArray, returnedValue);
+    }
 }
