@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e81410c6-2178-4aa0-817b-369cb207a7dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson5/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson5/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson5/ServiceForDelegation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/src/com/lessons/lesson2/HelpersArrayJunitTest.java" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson2/HelpersArrayJunitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/src/com/lessons/lesson2/HelpersArrays.java" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson2/HelpersArrays.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/src/com/lessons/lesson2/Main.java" afterPath="$PROJECT_DIR$/com/src/com/lessons/lesson2/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JuniorJavaDev.iws" />
@@ -571,7 +565,11 @@
       <created>1413273320329</created>
       <updated>1413273320329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created Tests and Junit Tests">
+      <created>1413878354333</created>
+      <updated>1413878354333</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
